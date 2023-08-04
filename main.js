@@ -29,7 +29,7 @@ console.log('ml5 version:', ml5.version);
 
 classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/mzEtQNVC9/model.json', modelLoaded);
 
-function modelLoded()
+function modelLoaded()
 {
     console.log('Modelo Carregado!')
 }
